@@ -1,0 +1,20 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "src/test/resources/features/login.feature"
+        ],
+        "publishQuiet": true,
+        "dryRun": false,
+        "parallel":2,
+        "retry": 1,
+        "require": [
+            "src/test/javascript/steps/*.js"
+        ],
+        "format": [
+            "html:test-results/cucumber-report.html"
+        ]
+    }
+}

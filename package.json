@@ -1,0 +1,18 @@
+{
+  "name": "pwcucumbersetupjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"npx cucumber-js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.1"
+  }
+}
